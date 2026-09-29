@@ -1,0 +1,13 @@
+.task_item {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  max-width: 300px;
+  border-radius: 7px;
+  	border: 1px solid black;
+
+}
+
+.task_item.selected {
+	border: 1px solid orange;
+}
