@@ -11,7 +11,7 @@ export const TasksDetails = ({ selectedId, selectedBoardId }: Props) => {
 
   return (
     <div className={styles.task_details}>
-      <h2>Task details</h2>
+      <h2>Task detailed information</h2>
 
       {!selectedTask && !selectedId && "Task is not selected"}
       {!selectedTask && selectedId && "isLoading..."}
